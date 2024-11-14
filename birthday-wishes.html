@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Wishes</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #f2f2f2;
+      color: #333;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #8B4513;
+      font-size: 36px;
+      margin-bottom: 20px;
+      animation: fade-in 1s ease-in-out;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: #8B4513;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #6A3805;
+    }
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>It's your birthday and I have a few wishes to say to you.</h1>
+<p>Click the button to read the birthday message.</p>
+<button onclick="window.location.href='birthday-message.html'">Next</button>
+</body>
+</html>
